@@ -3,35 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Meta tags for search engines-->
-    <meta name="description"
-    content="Harmless Halloween. An website for parents in the UK during Halloween. This webiste provides information about how to keep your children safe during this holiday, and possible dangers to look out for.">
+    <!-- Meta tags for search engines -->
+    <meta name="description" content="Harmless Halloween is a website for parents in the UK during Halloween. This website provides information about how to keep your children safe during this holiday, and possible dangers to look out for.">
     <meta name="keywords" content="halloween, children, parents, safety, trick-or-treating">
     <title>Harmless Halloween</title>
-    <!--Favicon-->
+
+    <!-- Favicon -->
     <link rel="icon" href="/favicon.svg" />
-    <!-- Stylesheet-->
+
+    <!-- Bootstrap CSS (you can remove if you don't need it) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <header>Header</header>
-        <a href="index.html">
-            <h1 id="logo">Harmless Halloween</h1>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="">Home</a>
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
+        <div class="container-xxl">
+            <a href="index.html" class="navbar-brand heading fw-bold" aria-label="Harmless Halloween - Homepage">Harmless Halloween</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" aria-label="Home">Home</a>
                     </li>
-                    <li>
-                        <a href="">Information</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" aria-label="About">About</a>
                     </li>
-                    <li>
-                        <a href=""></a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"
+                           aria-label="Safeguarding link">Safeguarding</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#section-policies" aria-label="Our policies">Our Policies</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#section-child" aria-label="I'm a child">I'm A Child</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#section-parent" aria-label="I'm an adult">I'm An Adult</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" aria-label="Contact Us">Contact Us</a>
                     </li>
                 </ul>
-            </nav>
-        </a>
-    <main>Main content</main>
-    <footer>Footer</footer>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="py-5 bg-dark text-white text-center" id="header">
+        <div class="container">
+            <h1 class="display-4">Harmless Halloween</h1>
+            <p class="lead">Keeping Halloween Safe for Your Little Monsters!</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container my-5">
+        <section id="section-policies">
+            <h2>Our Policies</h2>
+            <p>Information on our safety and safeguarding policies during Halloween.</p>
+        </section>
+
+        <section id="section-child">
+            <h2>I'm A Child</h2>
+            <p>Safety tips and guidance for children to enjoy Halloween safely.</p>
+        </section>
+
+        <section id="section-parent">
+            <h2>I'm An Adult</h2>
+            <p>Guidance for parents and adults on how to ensure a safe Halloween for everyone.</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4" id="contact">
+        <div class="container">
+            <p>&copy; 2024 Harmless Halloween. All rights reserved.</p>
+            <p><a href="mailto:info@harmlesshalloween.com" class="text-white">Contact Us</a></p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS (optional, for extra functionality) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
