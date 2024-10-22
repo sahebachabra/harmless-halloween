@@ -124,13 +124,16 @@ footer {
     background-color: rgb(255, 165, 0);
     font-family: 'Inter', sans-serif; /* Use Inter font for the brand */
 }
-/* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
-    /* Header */
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
+
+@media (min-width: 992px) { /* Apply for large devices (desktop) and up */
+    .navbar {
+        width: 100%; /* Ensure navbar spans full width */
+        padding-left: 0;
+        padding-right: 0;
     }
+
+    .container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
