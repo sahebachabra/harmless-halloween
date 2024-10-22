@@ -118,7 +118,13 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
-
+#hero {
+    padding-top: 80px; /* Add enough padding to account for the height of the fixed navbar */
+}
+.section-img {
+    width: 600px; /* Or any size you prefer */
+    height: auto; /* Keeps aspect ratio */
+}
 /* Footer */
 footer {
     background-color: rgb(255, 165, 0);
