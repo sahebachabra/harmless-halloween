@@ -14,11 +14,39 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #3a3a3a;
-    font-family: 'Creepster', sans-serif;
+    font-family: 'Eater', sans-serif;
+}
+/* Specific styles for the navbar brand text (Seasonal Safeguarding) */
+.navbar-brand {
+    font-family: 'Inter', sans-serif; /* Use Inter font for the brand */
+    font-weight: 700; /* Optional: You can set the weight to make it bold */
+    text-transform: uppercase; /* Optional: Makes text uppercase */
+}
+/* Nav links (Home, About, Safeguarding) */
+.nav-link, .dropdown-item {
+    font-family: 'Inter', sans-serif; /* Apply Inter font to the navigation links */
 }
 
-h1 {
-    font-family: '', sans-serif;
+/* Footer styles */
+footer {
+    background-color: rgb(255, 165, 0);
+    font-family: 'Inter', sans-serif; /* Change footer font to Inter */
+    text-align: center;
+    padding: 20px;
+}
+
+footer p, footer a {
+    font-family: 'Inter', sans-serif; /* Ensure all footer text and links use Inter */
+    color: #fff; /* White text color for footer */
+}
+
+footer a {
+    text-decoration: none;
+}
+
+/* Heading styles */
+h1, h2, p {
+    font-family: 'Eater', sans-serif; /* Keep other headings and text in Eater */
 }
 
 /* Header */
@@ -32,17 +60,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    font-family: 'Inter';
 }
 header a {
     text-decoration: none;
     color: inherit;
 }
-h1 {
-    font-family: 'Creepster', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
-}
+
 /* Main content */
 main {
     background-color: rgb(208, 173, 230);
@@ -86,6 +110,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
+    font-family:'Inter';
 }
 /* Main content */
 main {
@@ -97,6 +122,7 @@ main {
 /* Footer */
 footer {
     background-color: rgb(255, 165, 0);
+    font-family: 'Inter', sans-serif; /* Use Inter font for the brand */
 }
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
