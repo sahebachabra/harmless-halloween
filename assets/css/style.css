@@ -62,7 +62,9 @@ h2 {
 p {
     font-family: 'Inter', sans-serif; /* Keep other headings and text in Eater */
 }
-
+h4 {
+    font-family: 'Inter', sans-serif; /* Keep other headings and text in Eater */
+}
 /* Header */
 header {
     background-color: rgb(255, 165, 0);
