@@ -137,11 +137,20 @@ main {
 #hero {
     padding-top: 80px; /* Add enough padding to account for the height of the fixed navbar */
 }
+/* Base style for the image */
 .section-img {
     width: 600px; /* Or any size you prefer */
     height: auto; /* Keeps aspect ratio */
+    display: block;
+    margin: 0 auto; /* Center the image */
+    transition: transform 1s ease-in-out, filter 0.3s ease-in-out;
 }
 
+/* Spinning and glowing pumpkin hover effect */
+.section-img:hover {
+    transform: rotate(360deg); /* Spins the pumpkin */
+    filter: drop-shadow(0 0 10px #ff6700); /* Adds an orange glow */
+}
 /* Footer */
 footer {
     background-color: rgb(255, 165, 0);
@@ -153,7 +162,7 @@ footer {
         width: 100%; /* Ensure navbar spans full width */
         padding-left: 0;
         padding-right: 0;
-        background-color: #df7146 !important;
+        background-color: #973f3f !important;
     }
 
     .container-fluid {
