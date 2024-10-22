@@ -12,7 +12,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* Generic project styles */
+    background-color: #ff9854; /* Light orange color */
     color: #3a3a3a;
     font-family: 'Eater', sans-serif;
 }
@@ -22,7 +22,7 @@ body {
     display: flex; /* Use flexbox for layout */
     justify-content: space-between; /* Space between items */
     align-items: center; /* Center items vertically */
-    background-color: lightslategray; /* Optional: set background color */
+    background-color: #d3d3d3;
 }
 /* Specific styles for the navbar brand text (Seasonal Safeguarding) */
 .navbar-brand {
@@ -153,6 +153,7 @@ footer {
         width: 100%; /* Ensure navbar spans full width */
         padding-left: 0;
         padding-right: 0;
+        background-color: #8f8985 !important;
     }
 
     .container-fluid {
