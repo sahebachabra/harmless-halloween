@@ -22,7 +22,7 @@ body {
     display: flex; /* Use flexbox for layout */
     justify-content: space-between; /* Space between items */
     align-items: center; /* Center items vertically */
-    background-color: #d3d3d3;
+    background-color: #e06e6e;
 }
 /* Specific styles for the navbar brand text (Seasonal Safeguarding) */
 .navbar-brand {
@@ -153,7 +153,7 @@ footer {
         width: 100%; /* Ensure navbar spans full width */
         padding-left: 0;
         padding-right: 0;
-        background-color: #8f8985 !important;
+        background-color: #df7146 !important;
     }
 
     .container-fluid {
