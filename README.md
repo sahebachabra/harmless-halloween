@@ -1,139 +1,102 @@
 
-# Project Title
+# Halloween Safeguarding Website
 
 ## Overview
 
 ### Purpose
-In my project, I made a website about safeguarding aimed at parents, to help them keep tehir children safe during halloween. 
- My main goal is to make an engaging website, that is fun and halloween themed. I want it to have relevant information that is easy to absorb and is useful for others. It will provide value for parents, because it covers some of the main dangers for halloween such as fire, allergies and choking.
-
+This project is a website aimed at parents to help them safeguard their children during Halloween. The goal is to create a fun and engaging Halloween-themed website that offers useful and relevant information. The site provides valuable advice on common Halloween-related dangers, including fire hazards, food allergies, and choking risks.
 
 ### Target Audience
-This website targets parents of young chilren during halloween/ other seasonal holidays 
-.
+The website is targeted at parents of young children during Halloween or similar seasonal holidays.
 
 ## User Stories
 
 ### Must-Have User Stories
-- **User Story 1:** Briefly describe the must-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
-- **User Story 2:** Briefly describe the must-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
-
-(Include all prioritized must-have features)  
-**Guidance:** Draft the user stories during Phase 1: Ideation & Initial Setup and update them as you complete Phase 2: Must User Stories Implementation & Testing. Document each must-have feature here along with its acceptance criteria.
+- **As a parent**, I want to be confident that this website offers safeguarding measures so that I can ensure my child's safety while they are trick-or-treating during Halloween.  
+  **Acceptance Criteria:** Clear and actionable safeguarding advice that parents can easily follow.
+  
+- **As a parent**, I want to easily access additional resources to support my child’s safety, knowing that these are consistent with the advice they've learned elsewhere, preventing confusion or frustration.  
+  **Acceptance Criteria:** Relevant resources, links, and tips that are easy to navigate.
 
 ### Should-Have User Stories
-- **User Story 1:** Briefly describe the should-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
-- **User Story 2:** Briefly describe the should-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
+- **As a parent**, I want the website to be visually engaging, with a Halloween theme that attracts both parents and children without compromising readability.  
+  **Acceptance Criteria:** A clear, accessible, and festive design using appropriate fonts, colors, and images.
 
-(Include all prioritized should-have features)  
-**Guidance:** Document the secondary features that you aim to implement in Phase 3: Should User Stories Implementation & Any Advanced Features. Include clear acceptance criteria for each.
+- **As a parent**, I want to receive specific examples of potential hazards, such as fire or choking, so I can prepare accordingly.  
+  **Acceptance Criteria:** Sectioned content addressing different hazards (fire, allergies, choking) with solutions.
 
 ### Could-Have User Stories
-- **User Story 1:** Briefly describe the could-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
-- **User Story 2:** Briefly describe the could-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
+- **As a parent**, I would like an interactive element (such as a quiz or checklist) to make sure I’ve considered all safety precautions before Halloween.  
+  **Acceptance Criteria:** A simple, engaging interactive quiz or checklist to help parents verify they have followed all safety tips.
 
-(Include any could-have features considered for future enhancements)  
-**Guidance:** Document any optional features that are nice to have but not essential.
+- **As a parent**, I would appreciate downloadable guides or infographics that I can print or share with others.  
+  **Acceptance Criteria:** Downloadable resources in PDF format that summarize key safety points.
 
 ## Design Decisions
 
 ### Wireframes
-Include wireframes for key sections of your website.  
-Briefly describe the design choices, including layout, colour schemes, and fonts.  
-**Guidance:** Start this section during Phase 1: Ideation & Initial Setup and update it throughout Phase 2 and Phase 3. Include digital wireframes created in Phase 1. Document the reasoning behind your layout choices, colour schemes, and font selections.
+Include wireframes for key sections of your website. The layout will be simple yet festive, with Halloween-themed colors like orange and black. The design prioritizes accessibility, ensuring all text is easy to read and images are used appropriately.
+**Desktop Wireframes**
+![Desktop Wireframe 1](/readmeimages/desktop1.png)
+![Desktop Wireframe 2](/documentation/images/wireframe-desktop-2.webp)
 
 ### Accessibility Considerations
-Discuss how accessibility guidelines were adhered to, including colour contrast and alt text for images.  
-**Guidance:** Outline how you've incorporated accessibility into your design, ensuring that your project adheres to guidelines such as WCAG.
+- High contrast between text and background for readability.
+- Alt text for images to ensure accessibility for visually impaired users.
+- Resizable text to maintain legibility on mobile devices and smaller screens.
 
 ## AI Tools Usage
 
 ### DALL-E
-Describe how DALL-E was used for image generation, including examples of successes and challenges.  
-**Guidance:** Specifically mention how you used DALL-E for image generation and the impact this had on your design process.
+DALL-E was used to generate festive Halloween-themed images, including pumpkins and candy visuals. The challenge was balancing the theme with clarity to ensure the website didn’t appear cluttered while still maintaining a fun aesthetic.
+
+### GitHub Copilot
+GitHub Copilot was used to assist with the coding process, particularly in debugging and solving HTML and CSS layout issues. It provided suggestions that helped accelerate development.
 
 ## Features Implementation
 
 ### Core Features (Must-Haves)
-- **Feature 1:** Description of the implemented feature.
-- **Feature 2:** Description of the implemented feature.
-
-(Include all must-have features)  
-**Guidance:** Use this section as you complete Phase 2: Must User Stories Implementation & Testing. Document all the must-have features you implemented, explaining how they align with the user stories and acceptance criteria.
+- **Safeguarding Tips Section:** Includes clear, actionable tips for parents to follow during Halloween.
+- **Halloween-Themed Design:** Implemented a festive, user-friendly design that reflects the Halloween theme while remaining professional.
 
 ### Advanced Features (Should-Haves)
-- **Feature 1:** Description of the implemented feature.
-- **Feature 2:** Description of the implemented feature.
-
-(Include all should-have features)  
-**Guidance:** Include any advanced features you implemented during Phase 3: Should User Stories Implementation & Any Advanced Features. Explain how these features enhance user experience and their alignment with the acceptance criteria.
+- **Fire Safety Section:** Specific advice for avoiding fire hazards with Halloween decorations and costumes.
+- **Food Allergy Warnings:** Information on how to identify and avoid common food allergens during trick-or-treating.
 
 ### Optional Features (Could-Haves)
-- **Feature 1:** Description of the implemented feature (if any).
-- **Feature 2:** Description of the implemented feature (if any).
-
-(Include any could-have features that were implemented or considered)  
-**Guidance:** If any could-have features were implemented, describe them here. This is an opportunity to showcase extra work done beyond the initial scope. But remember - keep it simple! Focus on the Must stories first. Could user story features are commonly earmarked for future project iterations.
-
-## AI Tools Usage
-
-### GitHub Copilot
-Describe how GitHub Copilot assisted in coding, including any challenges or adjustments needed.  
-**Guidance:** Reflect on how GitHub Copilot assisted in coding, particularly any challenges or adjustments that were needed to align with project goals.
+- **Interactive Quiz:** A simple quiz to help parents ensure they've taken necessary safety precautions.
+- **Downloadable Guides:** Printable PDFs summarizing the most important safety tips.
 
 ## Testing and Validation
 
 ### Testing Results
-Summarize the results of testing across different devices and screen sizes.  
-Mention any issues found and how they were resolved.  
-**Guidance:** Summarize the results of your testing across various devices using tools like Chrome DevTools, as outlined in Phase 2. Mention any issues found and how they were resolved.
+The website was tested across different devices and screen sizes using Chrome DevTools. It performed well on desktops, tablets, and mobile phones. Adjustments were made to improve layout responsiveness and prevent text from touching the screen edges on mobile devices.
 
 ### Validation
-Discuss the validation process for HTML and CSS using W3C and Jigsaw validators.  
-Include the results of the validation process.  
-**Guidance:** Document your use of W3C and Jigsaw validators to ensure your HTML and CSS meet web standards. Include any errors or warnings encountered and how they were resolved.
-
-## AI Tools Usage
-
-### GitHub Copilot
-Brief reflection on the effectiveness of using AI tools for debugging and validation.  
-**Guidance:** Reflect on how GitHub Copilot assisted with debugging and validation, particularly any issues it helped resolve.
+The HTML and CSS were validated using the W3C validator and Jigsaw. Minor errors related to deprecated elements were found and corrected, ensuring the code adheres to current web standards.
 
 ## Deployment
 
 ### Deployment Process
-Briefly describe the deployment process to GitHub Pages or another cloud platform.  
-Mention any specific challenges encountered during deployment.  
-**Guidance:** Describe the steps you took to deploy your website during Phase 4: Final Testing, Debugging & Deployment, including any challenges encountered.
-
-## AI Tools Usage
-
-### Reflection
-Describe the role AI tools played in the deployment process, including any benefits or challenges.  
-**Guidance:** Reflect on how AI tools assisted with the deployment process, particularly how they streamlined any tasks or presented challenges.
+The website was deployed on GitHub Pages. During deployment, some issues were encountered with image paths not rendering correctly, which were resolved by updating relative links in the HTML code.
 
 ## Reflection on Development Process
 
 ### Successes
-Effective use of AI tools, including GitHub Copilot and DALL-E, and how they contributed to the development process.
+- Effective use of AI tools, including DALL-E for image generation and GitHub Copilot for code debugging, significantly streamlined the development process.
+- The final design achieved the right balance between being visually engaging and functional.
 
 ### Challenges
-Describe any challenges faced when integrating AI-generated content and how they were addressed.
+- Integrating AI-generated content with the overall site design presented a challenge in maintaining consistency in the look and feel.
+- Some accessibility adjustments were more complex than anticipated, especially ensuring text remained legible against the Halloween-themed background colors.
 
 ### Final Thoughts
-Provide any additional insights gained during the project and thoughts on the overall process.  
-**Guidance:** Begin drafting reflections during Phase 1 and update throughout the project. Finalize this section after Phase 4. Highlight successes and challenges, particularly regarding the use of AI tools, and provide overall insights into the project.
+This project provided valuable insights into how to create a visually themed, engaging website while still prioritizing user experience and accessibility. The use of AI tools was helpful but also required thoughtful adjustments to ensure the final output aligned with the project’s goals.
 
 ## Code Attribution
-Properly attribute any external code sources used in the project (excluding GitHub Copilot-generated code).  
-**Guidance:** Document any external code sources used throughout the entire project, especially during Phase 2 and Phase 3. Exclude GitHub Copilot-generated code from attribution.
+All code was written by the project team, with assistance from GitHub Copilot for suggestions and debugging.
 
 ## Future Improvements
-Briefly discuss potential future improvements or features that could be added to the project.  
-**Guidance:** Reflect on potential enhancements that could be made to the project after Phase 4: Final Testing, Debugging & Deployment. These could be Could user story features you didn’t have time to implement or improvements based on testing feedback.
+- Implementing an interactive quiz or checklist feature for parents to assess their readiness for Halloween.
+- Adding a blog section for ongoing seasonal safety tips.
+- Further testing and optimization for older devices and browsers.
