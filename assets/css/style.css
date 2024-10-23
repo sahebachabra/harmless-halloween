@@ -141,15 +141,38 @@ main {
 #hero {
     padding-top: 80px; /* Add enough padding to account for the height of the fixed navbar */
 }
-/* Base style for the image */
-.section-img {
-    width: 600px; /* Or any size you prefer */
-    height: auto; /* Keeps aspect ratio */
-    display: block;
-    margin: 0 auto; /* Center the image */
-    transition: transform 1s ease-in-out, filter 0.3s ease-in-out;
+/* General text centering */
+body, main, .card-container, .section-img, h1, h2, p {
+    text-align: center; /* Center text */
 }
 
+/* Center images */
+.section-img {
+    display: block;
+    margin: 0 auto; /* Center the image */
+    width: 90%; /* Make the image responsive */
+    max-width: 400px; /* Set a maximum width */
+}
+
+/* Center cards in the container */
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 90%; /* Make cards responsive */
+    max-width: 400px; /* Limit max width */
+    margin-bottom: 20px; /* Add some space between cards */
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;}
 /* Spinning and glowing pumpkin hover effect */
 .section-img:hover {
     transform: rotate(360deg); /* Spins the pumpkin */
@@ -167,29 +190,5 @@ footer {
         padding-left: 0;
         padding-right: 0;
         background-color: #986a41 !important;
-    }
-
-    .container-fluid {
-        padding-left: 0;
-        padding-right: 0;
-    }
-    .card-container {
-        flex-direction: column;
-        padding: 10px;
-    }
-
-    .card {
-        width: 90%; /* Ensure cards don't take up the full width on mobile */
-    }
-
-    /* Images should also adjust on smaller screens */
-    .section-img {
-        width: 90%; /* Ensure images are responsive */
-        max-width: 300px; /* Control the maximum width */
-    }
-
-    /* Adjust the padding for text and main content */
-    main {
-        padding: 10px; /* Add padding so text doesn't touch the edges */
     }
 }
