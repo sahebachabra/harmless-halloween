@@ -62,6 +62,9 @@ h2 {
 p {
     font-family: 'Inter', sans-serif; /* Keep other headings and text in Eater */
 }
+ul, ol, li {
+    font-family: 'Inter', sans-serif; /* Replace with the font of your choice */
+}
 h4 {
     font-family: 'Inter', sans-serif; /* Keep other headings and text in Eater */
 }
@@ -162,7 +165,7 @@ footer {
         width: 100%; /* Ensure navbar spans full width */
         padding-left: 0;
         padding-right: 0;
-        background-color: #973f3f !important;
+        background-color: #986a41 !important;
     }
 
     .container-fluid {
