@@ -38,7 +38,9 @@ The website is targeted at parents of young children during Halloween or similar
 Include wireframes for key sections of your website. The layout will be simple yet festive, with Halloween-themed colors like orange and black. The design prioritizes accessibility, ensuring all text is easy to read and images are used appropriately.
 **Desktop Wireframes**
 ![Desktop Wireframe 1](/readmeimages/desktop1.png)
-![Desktop Wireframe 2](/documentation/images/wireframe-desktop-2.webp)
+![Desktop Wireframe 2](/readmeimages/desktop2.png)
+![Phone Wireframe 1](/readmeimages/phonewireframe.png)
+![Tablet Wireframe 2](/readmeimages/ipadwireframe.png)
 
 ### Accessibility Considerations
 - High contrast between text and background for readability.
