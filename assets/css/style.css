@@ -15,6 +15,7 @@ body {
     background-color: #ff9854; /* Light orange color */
     color: #3a3a3a;
     font-family: 'Eater', sans-serif;
+    padding: 20px !important;
 }
 /* Navbar styles */
 .navbar {
