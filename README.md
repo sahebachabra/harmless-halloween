@@ -35,7 +35,7 @@ The website is targeted at parents of young children during Halloween or similar
 ## Design Decisions
 
 ### Wireframes
-Include wireframes for key sections of your website. The layout will be simple yet festive, with Halloween-themed colors like orange and black. The design prioritizes accessibility, ensuring all text is easy to read and images are used appropriately.
+
 **Desktop Wireframes**
 ![Desktop Wireframe 1](/readmeimages/desktop1.png)
 ![Desktop Wireframe 2](/readmeimages/desktop2.png)
@@ -48,12 +48,11 @@ Include wireframes for key sections of your website. The layout will be simple y
 - Resizable text to maintain legibility on mobile devices and smaller screens.
 
 ## AI Tools Usage
+I used ChatGPT a few time to try and fix minor bugs and also I wanted to make some interesting spooky effects so I used to it help me make a .sectionimagehover in my css
 
-### DALL-E
-DALL-E was used to generate festive Halloween-themed images, including pumpkins and candy visuals. The challenge was balancing the theme with clarity to ensure the website didn’t appear cluttered while still maintaining a fun aesthetic.
 
 ### GitHub Copilot
-GitHub Copilot was used to assist with the coding process, particularly in debugging and solving HTML and CSS layout issues. It provided suggestions that helped accelerate development.
+I did not use GitHub Copilot
 
 ## Features Implementation
 
@@ -62,8 +61,8 @@ GitHub Copilot was used to assist with the coding process, particularly in debug
 - **Halloween-Themed Design:** Implemented a festive, user-friendly design that reflects the Halloween theme while remaining professional.
 
 ### Advanced Features (Should-Haves)
-- **Fire Safety Section:** Specific advice for avoiding fire hazards with Halloween decorations and costumes.
-- **Food Allergy Warnings:** Information on how to identify and avoid common food allergens during trick-or-treating.
+- **Fire Safety Section:** A link to a pdf from a fire department
+- **Food Allergy Warnings:** A link to a website for food allergies
 
 ### Optional Features (Could-Haves)
 - **Interactive Quiz:** A simple quiz to help parents ensure they've taken necessary safety precautions.
@@ -75,30 +74,31 @@ GitHub Copilot was used to assist with the coding process, particularly in debug
 The website was tested across different devices and screen sizes using Chrome DevTools. It performed well on desktops, tablets, and mobile phones. Adjustments were made to improve layout responsiveness and prevent text from touching the screen edges on mobile devices.
 
 ### Validation
-The HTML and CSS were validated using the W3C validator and Jigsaw. Minor errors related to deprecated elements were found and corrected, ensuring the code adheres to current web standards.
+Minor errors were identified after deployment and issues with visuals on phones were identified using google extension. 
 
 ## Deployment
 
 ### Deployment Process
-The website was deployed on GitHub Pages. During deployment, some issues were encountered with image paths not rendering correctly, which were resolved by updating relative links in the HTML code.
+The website was deployed on GitHub Pages. During deployment, some issues were encountered with my images not showing correctly, which were resolved by updating relative links in the HTML code.
 
 ## Reflection on Development Process
 
 ### Successes
-- Effective use of AI tools, including DALL-E for image generation and GitHub Copilot for code debugging, significantly streamlined the development process.
-- The final design achieved the right balance between being visually engaging and functional.
+- Effective use of AI tools, significantly streamlined the development process (but not using it too much)
+- The final design achieved the right balance between being fun and informative
 
 ### Challenges
-- Integrating AI-generated content with the overall site design presented a challenge in maintaining consistency in the look and feel.
-- Some accessibility adjustments were more complex than anticipated, especially ensuring text remained legible against the Halloween-themed background colors.
+- I found that the on css some of my commands overidde each other which comfused me 
+- Some accessibility adjustments were more complex than anticipated, especiallly adjusting image size to phones and tablets 
 
 ### Final Thoughts
-This project provided valuable insights into how to create a visually themed, engaging website while still prioritizing user experience and accessibility. The use of AI tools was helpful but also required thoughtful adjustments to ensure the final output aligned with the project’s goals.
+This project provided valuable insights into how to create a visually themed, engaging website while still prioritizing user experience and accessibility. The use of LMS were useful helpful but also required thoughtful adjustments to ensure the final output aligned with the project’s goals.
 
 ## Code Attribution
-All code was written by the project team, with assistance from GitHub Copilot for suggestions and debugging.
+All code was written by me
 
 ## Future Improvements
 - Implementing an interactive quiz or checklist feature for parents to assess their readiness for Halloween.
+- Add links to pdfs of fire safety and allergies
 - Adding a blog section for ongoing seasonal safety tips.
 - Further testing and optimization for older devices and browsers.
