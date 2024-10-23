@@ -173,4 +173,23 @@ footer {
         padding-left: 0;
         padding-right: 0;
     }
+    .card-container {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .card {
+        width: 90%; /* Ensure cards don't take up the full width on mobile */
+    }
+
+    /* Images should also adjust on smaller screens */
+    .section-img {
+        width: 90%; /* Ensure images are responsive */
+        max-width: 300px; /* Control the maximum width */
+    }
+
+    /* Adjust the padding for text and main content */
+    main {
+        padding: 10px; /* Add padding so text doesn't touch the edges */
+    }
 }
