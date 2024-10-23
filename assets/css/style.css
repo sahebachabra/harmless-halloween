@@ -191,4 +191,27 @@ footer {
         padding-right: 0;
         background-color: #986a41 !important;
     }
+    /* Add padding to the main content area */
+main {
+    padding: 20px;  /* Adjust padding as needed to create space around content */
+}
+
+/* Adjust for mobile devices */
+@media (max-width: 768px) {
+    main {
+        padding: 15px; /* Ensure enough padding on smaller screens */
+    }
+
+    /* Adjust image and card width for mobile */
+    .section-img, .card {
+        width: 100%; /* Make the image and cards full width */
+        max-width: none; /* Remove any max-width that restricts its size */
+    }
+
+    /* Add padding or margin to text and images for spacing */
+    h2, p, .card {
+        margin: 15px 0; /* Add spacing between elements */
+    }
+}
+
 }
